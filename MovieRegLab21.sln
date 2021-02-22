@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRegLab21", "MovieRegLab21.csproj", "{FB664AC1-55D8-4832-8FED-191C5360E221}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB664AC1-55D8-4832-8FED-191C5360E221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB664AC1-55D8-4832-8FED-191C5360E221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB664AC1-55D8-4832-8FED-191C5360E221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB664AC1-55D8-4832-8FED-191C5360E221}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66658037-FF36-46F6-BCF2-3CAB9EE05B2F}
+	EndGlobalSection
+EndGlobal

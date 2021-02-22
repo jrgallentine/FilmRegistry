@@ -1,0 +1,25 @@
+﻿@model Movie
+
+
+@{
+
+
+
+    int ID = @Model.id;
+    string Title = @Model.title;
+    string Genre = @Model.genre;
+    int Year = @Model.year;
+
+
+
+
+    <h2>Movie: "@Title" registered!</h2>
+
+    <p>ID: @ID </p>
+    <p>Title: @Title </p>
+    <p>Genre: @Genre </p>
+    <p>Year: @Year </p>
+
+}
+
+

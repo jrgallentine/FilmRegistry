@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Movie"] = "Entry line you want to remember";
+}
+@Html.ValidationSummary()
+
+<form asp-controller="home" asp-action="MovieDisplay">
+    <h3>ID</h3>
+    <p><input name="ID" type="number" min="0" required /></p>
+    <br />
+    <h2>Title</h2>
+    @*<p><input name="Title" type="text" maxlength="50"   /></p>*@
+    <input name ="Title" type="text" maxlength="50" minlength="50" required/>
+
+    <br />
+    <br />
+
+    <h3>Genre</h3>
+    <div class="shiftLeft">
+        <p><input name="Genre" type="radio" id="RomCom" value="RomCom" required /><label for="RomCom"> RomCom</label></p>
+        <p><input name="Genre" type="radio" id="Strictly Comedy" value="Strictly Comedy" required /><label for=" Strictly Comedy">Strictly Comedy</label></p>
+        <p><input name="Genre" type="radio" id="Strictly Romance" value="Strictly Romance" required /><label for=" Strictly Romance">Strictly Romance</label></p>
+        <p><input name="Genre" type="radio" id="Sketchy YouTube Documentary" value="Sketchy YouTube Documentary" required /><label for="Sketchy YouTube Documentary"> Sketchy YouTube Documentary</label></p>
+        <p><input name="Genre" type="radio" id="Shrek Universe" value="Shrek Universe" required /><label for=" Shrek Universe"> Shrek Universe</label></p>
+        <br />
+    </div>
+
+
+
+
+    <h3>Year</h3>
+    <p><input name="Year" type="number" min="1874" max="2021"/></p>
+    <br />1
+    <h3>Actors</h3>
+    <p><input name="Actors" type="text" /></p>
+    <br />
+    <h3>Directors</h3>
+    <p><input name="Directors" type="text" /></p>
+    <br />
+
+
+
+    <input type="submit" value="Register" />
+</form>
